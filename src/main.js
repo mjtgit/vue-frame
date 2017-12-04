@@ -2,8 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import app from './App'
-import App from './common/app'
 import api from './api/'
+import App from './common/app'
 import router from './router'
 var vConsole = require('./plugin/vconsole.min.js');
 App.api = api

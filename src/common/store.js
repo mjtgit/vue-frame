@@ -1,4 +1,8 @@
 export default class {
+  constructor(storage) {
+    this.storage = storage
+  }
+
   pre (key) {
     const now = new Date()
     const year = (now.getFullYear()).toString()
